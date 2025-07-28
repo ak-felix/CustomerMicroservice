@@ -24,10 +24,10 @@ public class CustomerServiceImpl implements CustomerService {
 
 	private static final String CUSTOMER = "CUSTOMER";
 	@Autowired
-	AuthorizationFeign authorizationFeign;
+	AuthorizationFeign Authorizationfeign;
 
 	@Autowired
-	AccountFeign accountFeign;
+	AccountFeign Accountfeign;
 
 	@Autowired
 	CustomerRepository customerRepo;
