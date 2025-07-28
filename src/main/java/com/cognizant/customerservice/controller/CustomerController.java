@@ -28,10 +28,10 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 public class CustomerController {  // /customer endpoint
 
 	@Autowired
-	private CustomerService customerService;  //customer interface
+	private CustomerService CustomerService;  //customer interface
 
 	@Autowired
-	AuthorizationFeign authorizationFeign;   //auth feign
+	AuthorizationFeign Authorizationfeign;   //auth feign
 
 	/**
 	 * @param token
